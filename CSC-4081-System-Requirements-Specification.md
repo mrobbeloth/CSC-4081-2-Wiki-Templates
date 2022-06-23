@@ -71,12 +71,18 @@ Describes network interfaces
 Describes any required software interfaces, such as a server, database, or specific APIs. You may want to use class diagrams here. Don't forget to include JavaDocs or Doxygen docs, man files, etc., in your project when you reach the implementation phase or implementation portion of the current sprint. 
 
 ## Non-functional Requirements (Other than those previously listed)
-  
+ 
+(Examples from Ian Sommerville's Software Enginnering book and/or augmented by your prof)
+
 ### Hardware Constraints
 Describes any required software interfaces, such as a server, database, or specific APIs.
 
+Size: Megabytes of memory, number and type of ROM chips, amount of storage, server specs, number of virtual machines, containers,  etc. 
+
 ### Performance Requirements
-Specifies any time and memory constraints that must be satisfied for the system to be effective.
+Specifies any time and memory constraints that must be satisfied for the system to be effective. 
+
+Speed: Processed transactions/second, Processed transactions/second, Processed transactions/second, etc.
 
 ### System Environment Constraints
 Describes any standards for which compliance is required, such as database, file formats, or network protocols that must be supported.
@@ -85,4 +91,26 @@ Describes any standards for which compliance is required, such as database, file
 Describe what must be done to provide proper authentication into the software system and what must be done to provide proper authorization to functionality. Do not forget to include how the entire software system will be updated to prevent loss of confidenality, integrity, or availability in the production system.
 
 ### Reliability
-Describe to what extent the system will correctly provide implmented services in probablistic terms (what service level does your sponsor need to the system to achieve). 99% reliabilty only allows for three days and fifteen hours of downtime where as 99.9% reliabilty only allows eight hours and forty-five minutes of downtime in a year. It gets progressively more restrictive with additional *9s* or reliability. What mechanims will be needed to allow this level of reliability (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.).   
+Describe to what extent the system **will correctly provide** implmented services in probablistic terms (what service level does your sponsor need to the system to achieve). What mechanims will be needed to allow this level of reliability (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.).   
+
+### Availabilty
+Describe the probability the system **will be up and running** and able to deliver the requested services to the user. 99% reliabilty only allows for three days and fifteen hours of downtime where as 99.9% reliabilty only allows eight hours and forty-five minutes of downtime in a year. It gets progressively more restrictive with additional *9s* or reliability.What mechanims will be needed to allow this level of availabilty (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.)?   
+
+### Safety
+Describe how likely this system is likely to hurt, maim, or otherwise injure/kill the user. Even if the system isn't capable of physical injury, it might have the potential to cause emotional or psychological damage and those impacts should be described here. Do we need to submit this project for an internal board review given the impact of the system on human users?
+
+### Maintenance
+Describes any expectations for how the software should be written to facilitate the ongoing development of the system after its first version. This may include coding conventions, continuous integration systems, pre or post hook scripts, how files will be organized, etc. 
+
+### Portability
+Describes the range of operating systems and device types that should be supported.
+
+### Extensibility
+Describes any constraints on forward or backward compatibility with other systems.
+
+### Development Process Constraints
+Describes the software development environment to be used, including operating systems, programming languages, platforms, or libraries, indicating any reasons that these are required or preferred.
+
+## System Models
+This section includes diagrams showing relationships between major system components and the environment. It may include one or more of the following: 
+
