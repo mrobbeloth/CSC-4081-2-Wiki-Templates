@@ -120,7 +120,29 @@ Describes the software development environment to be used, including operating s
 This section includes diagrams showing relationships between major system components and the environment. It may include one or more of the following: 
 
 -Context Models: what is part of the system and what is not. Includes model diagrams and activity diagrams
+
 -Interaction Models: user to inputs/outputs, software to other systems/environment or among components in a system. Includes use-case digrams and sequence diagrams)
+
 -Structural Models: how the components of the system relate to one another in a static manner. Includes class diagrams (top-level, detailed, aggregation/generalization), component diagrams, deployment diagrams, package diagrams, profile diagrams, and composite structure diagrams.
+
 -Behavorial Models: show the dynamic behavior of the system as it executes. It includes activity (for data-flow), state/state-machine diagrams (event-flow), or timing diagrams
+
 -Entity-Retionship diagrams (for database design) with schema reduction and normalization to third-normal-form (3NF) or Boyd-Codd Normal Form (BCNF) dependening on need for preserving functional dependencies (FDs, essentially business/logic rules). 
+
+## Operational Scenarios
+This section may include a set of scenarios that illustrate, from the user's perspective, what will be experienced when utilizing the system under various situations. In the article Inquiry-Based Requirements Analysis (IEEE Software, March 1994), scenarios are defined as follows: 
+
+> A scenario is simply a proposed specific use of the system. More specifically, a scenario is a description of one or more end-to-end transactions involving the required system and its environment. Scenarios can be documented in different ways, depending on the level of detail needed. The simplest form is a use-case diagram, which consists of a labeled interaction between actors. More detailed forms are called scripts. These are usually represented as tables or sequence diagrams and involve identifying a sequence of actions and the agent (doer) of each action. 
+
+Although scenarios are useful in acquiring and validating requirements, they are not themselves requirements, because they describe the system's behavior only in specific situations; a specification, on the other hand, describes what the system should do in general. 
+
+You may want to include user stories here as an alternative for describing operational scenarios
+
+## Appendices 
+Specifies other useful information for understanding the requirements. Most requirements should include at least the following two appendices: 
+
+- **Definitions, Acronyms, Abbreviations**
+Provides definitions of specialized terms or acronyms that must be understood in the context of this application.
+
+- **References**
+Provides complete citations or URLs for all documents and websites referenced or used in the preparation of this document. Use MLA, APA, or other appropriate citation system (be consistent and use MLA throughout or APA throughout, etc.).
