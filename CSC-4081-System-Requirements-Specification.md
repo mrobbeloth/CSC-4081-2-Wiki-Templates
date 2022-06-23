@@ -83,3 +83,6 @@ Describes any standards for which compliance is required, such as database, file
 
 ### Security Requirements
 Describe what must be done to provide proper authentication into the software system and what must be done to provide proper authorization to functionality. Do not forget to include how the entire software system will be updated to prevent loss of confidenality, integrity, or availability in the production system.
+
+### Reliability
+Describe to what extent the system will correctly provide implmented services in probablistic terms (what service level does your sponsor need to the system to achieve). 99% reliabilty only allows for three days and fifteen hours of downtime where as 99.9% reliabilty only allows eight hours and forty-five minutes of downtime in a year. It gets progressively more restrictive with additional *9s* or reliability. What mechanims will be needed to allow this level of reliability (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.).   
