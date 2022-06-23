@@ -31,5 +31,55 @@ This section describes a list of objectives and requirements from the user's per
 ### User Characteristics
 Describes the characteristics of the user community, including their expected expertise with computer systems and the application domain. 
 
-## System Requirements
+## Functional or System Requirements
 This section lists the functional requirements of your system or application. A functional requirement describes a desired behavior or effect of the system, in other words, what the system must do, but should not get into details about how it will be implemented. When starting your first draft, just list the requirements as you become aware of them in any order. As you revise this section and get feedback from your stakeholders and advisor, reorder the requirements so that they are listed **in ranked order**, listing the most critical requirements first, and for equally important requirements, list them in the order in which you think they should be completed when one depends on another. Each functional requirement should be specified in the following format: 
+
+**A short imperative sentence stating something the system should do.**
+
+-**Description (Function)**
+A description of the desired capability, explaining it as unambiguously as possible.
+-**Inputs**
+A description of the desired capability, explaining it as unambiguously as possible.
+-**Outputs**
+Describe any data produced and its destination.
+-**Criticality**
+Describes how essential this requirement is to the overall system. 
+-**Risks**
+Describes the circumstances under which this requirement might not be able to be satisfied, and what actions can be taken to reduce the probability of this occurrence. 
+-**Dependencies with this requirement**
+
+**A short imperative sentence stating something the system should do.**
+
+...
+
+(Note: each functional or system requirement should be have an entry on the project board)
+
+## Interface Requirements
+
+(Tio: There are many methods to generate GUI mockups or diagrams that include SceneBuilder, Draw.io, Visio, etc., if needed to supplement any verbal descriptions)
+
+### User Interfaces
+Describes what types of human user interfaces are required (e.g., GUI, web interface, command line, or log data that should be produced for diagnostic purposes).
+
+### Hardware Interfaces
+Describes interfaces to specific hardware devices.
+
+### Communications Interfaces
+Describes network interfaces
+
+### Software Interfaces
+Describes any required software interfaces, such as a server, database, or specific APIs. You may want to use class diagrams here. Don't forget to include JavaDocs or Doxygen docs, man files, etc., in your project when you reach the implementation phase or implementation portion of the current sprint. 
+
+## Non-functional Requirements (Other than those previously listed)
+  
+### Hardware Constraints
+Describes any required software interfaces, such as a server, database, or specific APIs.
+
+### Performance Requirements
+Specifies any time and memory constraints that must be satisfied for the system to be effective.
+
+### System Environment Constraints
+Describes any standards for which compliance is required, such as database, file formats, or network protocols that must be supported.
+
+### Security Requirements
+Describe what must be done to provide proper authentication into the software system and what must be done to provide proper authorization to functionality. Do not forget to include how the entire software system will be updated to prevent loss of confidenality, integrity, or availability in the production system.
