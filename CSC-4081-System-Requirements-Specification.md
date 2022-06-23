@@ -93,6 +93,11 @@ Describe what must be done to provide proper authentication into the software sy
 ### Reliability
 Describe to what extent the system **will correctly provide** implmented services in probablistic terms (what service level does your sponsor need to the system to achieve). What mechanims will be needed to allow this level of reliability (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.).   
 
+Examples: mean-time-to-failure (MTTF), probability of unavailability, rate of failure occurrence, etc.
+
+### Robustness
+Time to restart after failure, percentage of events causing failure, or probability of data corruption on failure
+
 ### Availabilty
 Describe the probability the system **will be up and running** and able to deliver the requested services to the user. 99% reliabilty only allows for three days and fifteen hours of downtime where as 99.9% reliabilty only allows eight hours and forty-five minutes of downtime in a year. It gets progressively more restrictive with additional *9s* or reliability.What mechanims will be needed to allow this level of availabilty (auto-restart of services, load-balanacing/CDN, caching, test/deploy servers with rollback, etc.)?   
 
@@ -109,8 +114,13 @@ Describes the range of operating systems and device types that should be support
 Describes any constraints on forward or backward compatibility with other systems.
 
 ### Development Process Constraints
-Describes the software development environment to be used, including operating systems, programming languages, platforms, or libraries, indicating any reasons that these are required or preferred.
+Describes the software development environment to be used, including operating systems, programming languages, platforms, or libraries, indicating any reasons that these are required or preferred. What percentage of target dependent statements are likely to be in the system? Keep in mind there is often a difference between the system that you develop the software on and the target systems where the software will execute. 
 
 ## System Models
 This section includes diagrams showing relationships between major system components and the environment. It may include one or more of the following: 
 
+-Context Models: what is part of the system and what is not. Includes model diagrams and activity diagrams
+-Interaction Models: user to inputs/outputs, software to other systems/environment or among components in a system. Includes use-case digrams and sequence diagrams)
+-Structural Models: how the components of the system relate to one another in a static manner. Includes class diagrams (top-level, detailed, aggregation/generalization), component diagrams, deployment diagrams, package diagrams, profile diagrams, and composite structure diagrams.
+-Behavorial Models: show the dynamic behavior of the system as it executes. It includes activity (for data-flow), state/state-machine diagrams (event-flow), or timing diagrams
+-Entity-Retionship diagrams (for database design) with schema reduction and normalization to third-normal-form (3NF) or Boyd-Codd Normal Form (BCNF) dependening on need for preserving functional dependencies (FDs, essentially business/logic rules). 
