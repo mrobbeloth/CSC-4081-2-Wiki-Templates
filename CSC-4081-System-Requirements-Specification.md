@@ -142,7 +142,9 @@ You may want to include user stories here as an alternative for describing opera
 Specifies other useful information for understanding the requirements. Most requirements should include at least the following two appendices: 
 
 - **Definitions, Acronyms, Abbreviations**
+
 Provides definitions of specialized terms or acronyms that must be understood in the context of this application.
 
 - **References**
+
 Provides complete citations or URLs for all documents and websites referenced or used in the preparation of this document. Use MLA, APA, or other appropriate citation system (be consistent and use MLA throughout or APA throughout, etc.).
