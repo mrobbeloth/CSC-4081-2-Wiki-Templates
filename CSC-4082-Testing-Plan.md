@@ -45,10 +45,12 @@ Once all other tests are complete, this section describes how the system will be
 
 ## Tips (Remove if using this as a template on your Wiki)
 
-1. Track failed tests beyond unit tests in the Issues section of a GitHub repository or some other bug tracking system like Bugzilla.   
+1. Track failed tests beyond unit tests in the Issues section of a GitHub repository or some other bug tracking system like Bugzilla. This will help you in 
 2. Try testing your software on non-development systems, including back-end components on client-server systems. You may find it helpful to create virtual machines or containers at this point to assist your testing efforts. 
 3. Try using an operating system other than the one used for development (this includes back-end and front-end components if applicable)
 4. Try using low-end hardware or a VM/container with highly restrained resources.
 5. Try constraining network bandwidth and or pulling the network plug (virutal or physical)
 6. Try pulling the power cable (or virtual switch). **Note that you may want to have backups in place before trying this step**. 
 
+## References (feel free to add, modify, or remove this sectino as needed)
+Sommerville, I. (2016). *Software Engineering* (K. Loanes, Ed.; 10th ed.). Pearson.
