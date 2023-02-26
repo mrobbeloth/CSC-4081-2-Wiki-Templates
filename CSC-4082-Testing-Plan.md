@@ -52,5 +52,5 @@ Once all other tests are complete, this section describes how the system will be
 5. Try constraining network bandwidth and or pulling the network plug (virutal or physical)
 6. Try pulling the power cable (or virtual switch). **Note that you may want to have backups in place before trying this step**. 
 
-## References (feel free to add, modify, or remove this sectino as needed)
+## References (feel free to add, modify, or remove this section as needed)
 Sommerville, I. (2016). *Software Engineering* (K. Loanes, Ed.; 10th ed.). Pearson.
